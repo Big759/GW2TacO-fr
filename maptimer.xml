@@ -214,40 +214,6 @@
 	</Map>
 	
 		<!--
-	Festivals
-	-->
-
-	<!-- Foire du Dragon -->
-	<Map Name="Foire du Dragon" Length="60" Start="0" id="fdb">
-		<Event Name="Contrefort du voyageur"    Length="15" Color="8062b1ea"/>
-		<Event Name="Falaise de Hantedraguerre" Length="15" Color="8062e4ea"/>
-		<Event Name="Passage de Lornar"         Length="15" Color="8062b1ea"/>
-		<Event Name="Congères d'Antreneige"     Length="15" Color="8062e4ea"/>
-	</Map>
-
-	<!-- Festival des Quatre Vents -->
-	<Map Name="Falaises labyrinthiques" Length="120" Start="0" id="fw">
-		<Event Name="Course d'esquif"     Length="10" Color="80e036ff"/>
-		<Event Name=""                    Length="5"  Color="00000000"/>
-		<Event Name="Ballons d'eau"       Length="10" Color="80e036ff"/>
-		<Event Name=""                    Length="5 " Color="00000000"/>
-		<Event Name="Chasse au Trésor"    Length="30" Color="80e036ff"/>
-		<Event Name=""                    Length="15" Color="00000000"/>
-		<Event Name="Course de voldécume" Length="10" Color="80e036ff"/>
-		<Event Name=""                    Length="5"  Color="00000000"/>
-		<Event Name="Pêche"               Length="10" Color="80e036ff"/>
-		<Event Name=""                    Length="5"  Color="00000000"/>
-		<Event Name="Course de dolyak"    Length="10" Color="80e036ff"/>
-		<Event Name=""                    Length="5"  Color="00000000"/>
-	</Map>
-
-	<!-- Halloween -->
-	<Map Name="Halloween" Length="120" Start="1" id="hmk">
-		<Event Name="Roi Dément" Length="10"  Color="80ea9610"/>
-		<Event Name=""           Length="110" Color="00000000"/>
-	</Map>
-	
-		<!--
 	Saison 1
 	-->
 
@@ -340,7 +306,7 @@
 	<!-- Rives de l'Elon -->
     <Map Name="Rives de l'Elon" Length="120" Start="90" id="erl" ChestAPIID="elon_riverlands_heros_choice_chest">
       <Event Name="Ascension" Length="25" Color="80dae3b4"/>
-      <Event Name="Sosie"     Length="20" Color="80c4c19b"/>
+      <Event Name="Sosie fou"     Length="20" Color="80c4c19b"/>
       <Event Name=""          Length="75" Color="00000000" />
 	</Map>
 
@@ -498,5 +464,39 @@
       <Event Name="Mont Balrior"        Length="10"  Color="8092aaeb"/>
       <Event Name=""                    Length="170" Color="00000000"/>
     </Map>
+	
+		<!--
+	Festivals
+	-->
+
+	<!-- Foire du Dragon -->
+	<Map Name="Foire du Dragon" Length="60" Start="0" id="fdb">
+		<Event Name="Contrefort du voyageur"    Length="15" Color="8062b1ea"/>
+		<Event Name="Falaise de Hantedraguerre" Length="15" Color="8062e4ea"/>
+		<Event Name="Passage de Lornar"         Length="15" Color="8062b1ea"/>
+		<Event Name="Congères d'Antreneige"     Length="15" Color="8062e4ea"/>
+	</Map>
+
+	<!-- Festival des Quatre Vents -->
+	<Map Name="Falaises labyrinthiques" Length="120" Start="0" id="fw">
+		<Event Name="Course d'esquif"     Length="10" Color="80e036ff"/>
+		<Event Name=""                    Length="5"  Color="00000000"/>
+		<Event Name="Ballons d'eau"       Length="10" Color="80e036ff"/>
+		<Event Name=""                    Length="5 " Color="00000000"/>
+		<Event Name="Chasse au Trésor"    Length="30" Color="80e036ff"/>
+		<Event Name=""                    Length="15" Color="00000000"/>
+		<Event Name="Course de voldécume" Length="10" Color="80e036ff"/>
+		<Event Name=""                    Length="5"  Color="00000000"/>
+		<Event Name="Pêche"               Length="10" Color="80e036ff"/>
+		<Event Name=""                    Length="5"  Color="00000000"/>
+		<Event Name="Course de dolyak"    Length="10" Color="80e036ff"/>
+		<Event Name=""                    Length="5"  Color="00000000"/>
+	</Map>
+
+	<!-- Halloween -->
+	<Map Name="Halloween" Length="120" Start="1" id="hmk">
+		<Event Name="Roi Dément" Length="10"  Color="80ea9610"/>
+		<Event Name=""           Length="110" Color="00000000"/>
+	</Map>
 
 </GW2MapTimer>
