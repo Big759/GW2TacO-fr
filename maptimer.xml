@@ -459,6 +459,11 @@
 		<Event Name="De Brumes et de monstres"      Length="30" Color="8092aaeb"/>
 		<Event Name=""                              Length="90" Color="00000000"/>
 	</Map>
+	<!-- Bava Nisos -->
+	<Map Name="Bava Nisos" Length="120" Start="80" id="jwbn">
+		<Event Name="Un voyage titanesque"        Length="30"  Color="8092aaeb"/>
+		<Event Name=""                            Length="90" Color="00000000"/>
+	</Map>
 	<!-- Mont Balrior -->
     <Map Name="Convergences (JW)" Length="180" Start="0" id="jwc">
       <Event Name="Mont Balrior"        Length="10"  Color="8092aaeb"/>
