@@ -20,7 +20,7 @@
   	<!-- Boss mondiaux -->
 	<Map Name="Boss mondiaux" Length="1440" Start="0" id="wb">
 		<!-- 0:00 -->
-		<Event Name="Taidha Covington"   Length="15" Color="8063471c" WorldBossAPIID="admiral_taidha_covington"/>
+		<Event Name="Taidha Covington"   WayPoint="[&BKgBAAA=]" Length="15" Color="8063471c" WorldBossAPIID="admiral_taidha_covington"/>
 		<Event Name="Chamane Svanir"     Length="15" Color="80b9d0d5" WorldBossAPIID="svanir_shaman_chief"/>
 		<Event Name="Mégadestructeur"    Length="15" Color="80ff2e0d" WorldBossAPIID="megadestroyer"/>
 		<Event Name="Élémentaire de Feu" Length="15" Color="80eab700" WorldBossAPIID="fire_elemental"/>
