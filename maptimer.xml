@@ -212,6 +212,21 @@
 		<Event Name="Champs de Gendarran"     Length="20"  Color="80e22822"/>
 		<Event Name=""                        Length="100" Color="80e56559"/>
 	</Map>
+
+		<!--
+	Tournois et événements
+	-->
+
+	<Map Name="Tournois JcJ" Length="720" Start="" id="pvp">
+		<Event Name="Bagarre de Balthazar" Length="60" Color="80c27e00"/>
+		<Event Name="" Length="120" Color=""/>
+		<Event Name="Grabuge de Grenth" Length="60" Color="80616100"/>
+		<Event Name="" Length="120" Color=""/>
+		<Event Name="Légions de Lyssa" Length="60" Color="805c00a3"/>
+		<Event Name="" Length="120" Color=""/>
+		<Event Name="Association de Melandru" Length="60" Color="80004200"/>
+		<Event Name="" Length="120" Color=""/>
+	</Map>
 	
 		<!--
 	Saison 1
@@ -397,7 +412,7 @@
 	</Map>
 	
 	<!-- Néo-Kaineng -->
-	<Map Name="Néo-Kaineng" Length="120" Start="0" id="cnkc">
+	<Map Name="Néo-Kaineng" Length="120" Start="0" id="cnkc" ChestAPIID="new_kaineng_city_heros_choice_chest">
 		<Event Name="Panne totale à Kaineng"       Length="40" Color="8042C8D7"/>
 		<Event Name=""                             Length="80" Color="008AEAF4"/>
 	</Map>
@@ -455,17 +470,17 @@
 	-->
 	
 	<!-- Syntri de Janthir -->
-	<Map Name="Syntri de Janthir" Length="120" Start="30" id="jwjs">
+	<Map Name="Syntri de Janthir" Length="120" Start="30" id="jwjs" ChestAPIID="janthir_syntri_heros_choice_chest">
 		<Event Name="De Brumes et de monstres"      Length="30" Color="8092aaeb"/>
 		<Event Name=""                              Length="90" Color="00000000"/>
 	</Map>
 	<!-- Bava Nisos -->
-	<Map Name="Bava Nisos" Length="120" Start="80" id="jwbn">
-		<Event Name="Un voyage titanesque"        Length="30"  Color="8092aaeb"/>
-		<Event Name=""                            Length="90" Color="00000000"/>
-	</Map>
+    <Map Name="Bava Nisos" Length="120" Start="80" id="jwbn" ChestAPIID="bava_nisos_commanders_choice_chest">
+      <Event Name="Un voyage titanesque"        Length="30"  Color="8092aaeb"/>
+      <Event Name=""                   		    Length="90" Color="00000000"/>
+    </Map>
 	<!-- Mont Balrior -->
-    <Map Name="Convergences (JW)" Length="180" Start="0" id="jwc">
+    <Map Name="Convergences (JW)" Length="180" Start="0" id="jwc" ChestAPIID="convergence_mount_balrior_commanders_choice_chest">
       <Event Name="Mont Balrior"        Length="10"  Color="8092aaeb"/>
       <Event Name=""                    Length="170" Color="00000000"/>
     </Map>
