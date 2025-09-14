@@ -20,7 +20,7 @@
   	<!-- Boss mondiaux -->
 	<Map Name="Boss mondiaux" Length="1440" Start="0" id="wb">
 		<!-- 0:00 -->
-		<Event Name="Taidha Covington"   WayPoint="[&BKgBAAA=]" Length="15" Color="8063471c" WorldBossAPIID="admiral_taidha_covington"/>
+		<Event Name="Taidha Covington"   Length="15" Color="8063471c" WorldBossAPIID="admiral_taidha_covington"/>
 		<Event Name="Chamane Svanir"     Length="15" Color="80b9d0d5" WorldBossAPIID="svanir_shaman_chief"/>
 		<Event Name="Mégadestructeur"    Length="15" Color="80ff2e0d" WorldBossAPIID="megadestroyer"/>
 		<Event Name="Élémentaire de Feu" Length="15" Color="80eab700" WorldBossAPIID="fire_elemental"/>
@@ -206,26 +206,38 @@
 	<!-- Anomalies -->
 	<Map Name="Anomalies" Length="360" Start="20" id="cta">
 		<Event Name="Chutes de la Canopee"    Length="20"  Color="80e22822"/>
-		<Event Name=""                        Length="100" Color="80e56559"/>
+		<Event Name=""                        Length="100" Color="00000000"/>
 		<Event Name="Marais de Fer"           Length="20"  Color="80e22822"/>
-		<Event Name=""                        Length="100" Color="80e56559"/>
+		<Event Name=""                        Length="100" Color="00000000"/>
 		<Event Name="Champs de Gendarran"     Length="20"  Color="80e22822"/>
-		<Event Name=""                        Length="100" Color="80e56559"/>
+		<Event Name=""                        Length="100" Color="00000000"/>
+	</Map>
+	
+		<!-- Invasion des fractales -->
+	<Map Name="Invasion fractale" Length="240" Start="0" id="if">
+		<Event Name="Collines de Kessex"            Length="15"  Color="8079afff"/>
+		<Event Name=""                              Length="45"  Color="00000000"/>
+		<Event Name="Plateau de Diessa"             Length="15"  Color="8079afff"/>
+		<Event Name=""                              Length="45"  Color="00000000"/>
+		<Event Name="Terres sauvages de Brisban"    Length="15"  Color="8079afff"/>
+		<Event Name=""                              Length="45"  Color="00000000"/>
+		<Event Name="Congères d'Antreneige"         Length="15"  Color="8079afff"/>
+		<Event Name=""                              Length="45"  Color="00000000"/>
 	</Map>
 
 		<!--
 	Tournois et événements
 	-->
 
-	<Map Name="Tournois JcJ" Length="720" Start="" id="pvp">
-		<Event Name="Bagarre de Balthazar" Length="60" Color="80c27e00"/>
-		<Event Name="" Length="120" Color=""/>
-		<Event Name="Grabuge de Grenth" Length="60" Color="80616100"/>
-		<Event Name="" Length="120" Color=""/>
-		<Event Name="Légions de Lyssa" Length="60" Color="805c00a3"/>
-		<Event Name="" Length="120" Color=""/>
-		<Event Name="Association de Melandru" Length="60" Color="80004200"/>
-		<Event Name="" Length="120" Color=""/>
+	<Map Name="Tournois JcJ" Length="720" Start="0" id="pvp">
+		<Event Name="Bagarre de Balthazar"       Length="60"  Color="80c27e00"/>
+		<Event Name=""                           Length="120" Color="00000000"/>
+		<Event Name="Grabuge de Grenth"          Length="60"  Color="80616100"/>
+		<Event Name=""                           Length="120" Color="00000000"/>
+		<Event Name="Légions de Lyssa"           Length="60"  Color="805c00a3"/>
+		<Event Name=""                           Length="120" Color="00000000"/>
+		<Event Name="Association de Melandru"    Length="60"  Color="80004200"/>
+		<Event Name=""                           Length="120" Color="00000000"/>
 	</Map>
 	
 		<!--
