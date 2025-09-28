@@ -214,7 +214,7 @@
 	</Map>
 	
 		<!-- Invasion des fractales -->
-	<Map Name="Invasion fractale" Length="240" Start="0" id="if">
+	<Map Name="Invasion des fractales" Length="240" Start="0" id="if">
 		<Event Name="Collines de Kessex"            Length="15"  Color="8079afff"/>
 		<Event Name=""                              Length="45"  Color="00000000"/>
 		<Event Name="Plateau de Diessa"             Length="15"  Color="8079afff"/>
